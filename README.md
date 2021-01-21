@@ -13,7 +13,7 @@
 06. 기존에 수집한 데이터를 원하는 형태로 전처리
 07. 전처리한 데이터를 구글 → 네이버로 메일 전송
 08. 프로토타입 1차적으로 구현
-09. 권한 확인 인터페이스 신규 생성으로 인한 코드 추가  
-10. 1에 생성한 코드가 구글 웹드라이버 Headless 옵션에서 실행이 되지 않는 현상 발생  
+09. 권한 확인 인터페이스가 새로 생성되어 코드 추가  
+10. 9에서 생성한 코드가 구글 웹드라이버 Headless 옵션에서 실행이 되지 않는 현상 발생  
 11. driver 처음 실행 시 stale element reference: element is not attached to the page document 오류 발생  
 12. AWS Lambda의 Layers에 파이썬 모듈 등록
