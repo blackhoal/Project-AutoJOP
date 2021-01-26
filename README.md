@@ -19,13 +19,13 @@
 12. AWS Lambda의 Layers에 파이썬 모듈 등록
 
 ## 작업 예정 내역
-01. AWS Lambda 구현
-02. 지도 이미지 링크 개선
-03. 잡플래닛 크롤링 과정 중 검색 버튼의 selecter를 찾지 못하는 현상
+01. 지도 이미지 링크 개선
+02. 잡플래닛 크롤링 과정 중 검색 버튼의 selecter를 찾지 못하는 오류(해결)
 ~~~
 driver.find_element_by_css_selector('#search_form > div > div > button').click()
 ~~~
 ~~~
 driver.find_element_by_css_selector('#search_form > div > div > button').send_keys(Keys.ENTER)
 ~~~
-04. 
+03. AWS Lambda와 Folium 연동
+04. AWS Lambda와 AWS SES 연동을 통한 메일 송신
