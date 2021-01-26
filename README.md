@@ -22,3 +22,9 @@
 01. AWS Lambda 구현
 02. 지도 이미지 링크 개선
 03. 잡플래닛 크롤링 과정 중 검색 버튼의 selecter를 찾지 못하는 현상
+~~~
+driver.find_element_by_css_selector('#search_form > div > div > button').click()
+~~~
+~~~
+driver.find_element_by_css_selector('#search_form > div > div > button').send_keys(Keys.ENTER)
+~~~
