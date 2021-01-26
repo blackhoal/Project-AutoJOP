@@ -18,6 +18,6 @@
 11. driver 처음 실행 시 stale element reference: element is not attached to the page document 오류 발생  
 12. AWS Lambda의 Layers에 파이썬 모듈 등록
 
-## 현재 작업중인 요소
+## 현재 작업중인 내역
 01. AWS Lambda 구현
 02. 지도 이미지 링크 개선
