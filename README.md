@@ -29,4 +29,7 @@ driver.find_element_by_css_selector('#search_form > div > div > button').send_ke
 ~~~
 03. AWS Lambda와 Folium 연동
 > folium을 통해 출력된 지도 이미지 파일을 s3에 저장  
-04. AWS Lambda와 AWS SES 연동을 통한 메일 송신
+
+## 향후 계획
+01. 이메일 링크 주소 생성 코드부분 수정  
+02. AWS Lambda와 AWS SES 연동을 통한 메일 송신  
