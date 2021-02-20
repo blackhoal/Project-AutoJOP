@@ -36,4 +36,3 @@ driver.find_element_by_css_selector('#search_form > div > div > button').send_ke
 02. AWS Lambda와 AWS SES 연동을 통한 메일 송신  
 03. AWS Lambda를 대체하여 EC2 서버에 구현
 04. 메일 전송에서 텔레그램 봇의 형태로 변경 고려
-5. 메일
