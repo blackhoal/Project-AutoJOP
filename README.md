@@ -2,7 +2,7 @@
 ## 개발환경
 - Programming Language : Python
 - IDLE : Jupyter Notebook
-- AWS : S3, Lambda
+- AWS : S3, EC2
 
 ## 개발내역
 01. 사람인 API를 통한 공고 데이터 수집
