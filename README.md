@@ -18,11 +18,11 @@
 11. driver 처음 실행 시 stale element reference: element is not attached to the page document 오류 발생  
 12. AWS Lambda의 Layers에 파이썬 모듈 등록
 13. 평점 크롤링 부분 수정 210209
-14. 텔레그램 봇 연동 후 메시지 전송 및 수신 부분까지 구현 210308
 
 ## 진행중인 내역
 01. 지도 이미지 링크 개선
 02. 잡플래닛 크롤링 과정 중 검색 버튼의 selecter를 찾지 못하는 오류(해결)
+03. 텔레그램 봇 연동 및 전송 부분 진행중
 ~~~
 driver.find_element_by_css_selector('#search_form > div > div > button').click()
 ~~~
