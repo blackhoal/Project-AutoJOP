@@ -172,7 +172,6 @@ def loc_map(com):
         zoom_start = 11
     else:
         zoom_start = 10
-        #print(hc_distance, zoom_start)
 
     g_map = folium.Map(location = loc_center, zoom_start = zoom_start)
     duration = directions_result[0]['legs'][0]['duration']['text'].replace(" hours", "시간").replace(" hour", "시간").replace(" mins", "분") # 소요 시간
@@ -231,7 +230,7 @@ def make_png(g_map):
     browser.save_screenshot('{day}_{com}.png'.format(day = published, com = com)) # YYYY-MM-DD_회사명.png
     browser.quit()
     
-# 생성한 이미지 파일을 S3에 업로드
+# 생성한 이미지 파일을 AWS S3에 업로드
 def to_s3(i, com):
     bucket_name = '버켓명'
     image_name = '{day}_{com}.png'.format(day = published, com = com)
@@ -239,7 +238,7 @@ def to_s3(i, com):
     s3 = boto3.resource('s3')
     bucket = s3.Bucket(bucket_name)
     bucket.upload_file(
-        image_name, s3_image, ExtraArgs={'ContentType': 'image/png'})
+        image_name, s3_image, ExtraArgs = {'ContentType' : 'image/png'})
 
     s3_url = "버켓 이미지 파일 주소"
     company[i].append(s3_url)
