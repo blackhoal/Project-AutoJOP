@@ -110,7 +110,7 @@ def Job_Planet(a): # planet_com / [회사1, 회사2, 회사3, ...]
         driver.implicitly_wait(5)
         search_com = driver.find_element_by_css_selector('#search_bar_search_query')
         search_com.send_keys(a[i])
-        driver.find_element_by_css_selector('#search_form > div > div > button').click()
+        driver.find_element_by_css_selector('#search_form > div > button').click()
         driver.implicitly_wait(5)
 
         # 예외 처리
