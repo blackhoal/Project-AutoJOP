@@ -1,5 +1,4 @@
 
-
 from datetime import datetime
 from selenium import webdriver
 from haversine import haversine
